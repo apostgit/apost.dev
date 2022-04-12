@@ -1,0 +1,10 @@
+div.index {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1000px) {
+  div.index {
+    width: 98%;
+  }
+}

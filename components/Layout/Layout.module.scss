@@ -1,0 +1,16 @@
+div.main {
+  display: grid;
+  grid-template-columns: 230px calc(100% - 230px);
+  width: 1000px;
+  margin: 0 auto;
+
+  div.right_container {
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  div.main {
+    width: 98%;
+  }
+}

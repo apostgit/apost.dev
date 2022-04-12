@@ -20,18 +20,11 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: "Cera Pro";
+  font-family: 'Cera Pro';
   scroll-behavior: smooth;
 }
 
 body {
-  width: 700px;
-  margin: 0 auto;
-  padding-block: 20px;
-}
-
-@media screen and (max-width: 710px) {
-  body {
-    width: 94%;
-  }
+  color: #ffffff;
+  background-color: #0d0f14;
 }

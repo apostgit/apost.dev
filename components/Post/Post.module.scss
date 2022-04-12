@@ -1,0 +1,52 @@
+div.post {
+
+  div.form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+
+    input,
+    textarea {
+      width: 300px;
+      margin: 10px 0;
+      padding: 10px 16px;
+      color: #ffffff;
+      border: 1.4px solid #ffffff84;
+      border-radius: 4px;
+      background-color: transparent;
+      transition: 0.3s ease;
+
+      &:focus {
+        outline: none;
+        border: 1.4px solid #00a8f4;
+        box-shadow: 0 0 0 3px #00a7f43c;
+      }
+
+      &::placeholder {
+        color: #ffffff84;
+      }
+    }
+
+    button {
+      width: 300px;
+      height: 40px;
+      font-size: 16px;
+      font-weight: 500;
+      background-color: #00a8f4;
+      color: #ffffff;
+      border: 0;
+      border-radius: 4px;
+      transition: 0.2s ease;
+      cursor: pointer;
+
+      i {
+        font-size: 14px;
+        margin-right: 10px;
+      }
+
+      &:active {
+        transform: scale(0.95);
+      }
+    }
+  }
+}
